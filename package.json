@@ -1,0 +1,34 @@
+{
+  "name": "2tds2-nodejs-first-boilerplate",
+  "version": "1.0.0",
+  "description": "projeto base em NodeJS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaMartins25/nodejs-first-boilerplate.git"
+  },
+  "keywords": [
+    "SENAI",
+    "NodejS",
+    "boilerplate",
+    "backend",
+    "github",
+    "Dev"
+  ],
+  "author": "Julia Martins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuliaMartins25/nodejs-first-boilerplate/issues"
+  },
+  "homepage": "https://github.com/JuliaMartins25/nodejs-first-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
